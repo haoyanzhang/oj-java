@@ -17,7 +17,8 @@ class Solution {
                     list.add(target);
                     result.add(list);
                 }
-                while (j + 1 < nums.length && nums[j+1] == nums[j]) {
+                while (j + 1 < nums.length && nums[j+1
+                        ] == nums[j]) {
                     j++;
                 }
             }
