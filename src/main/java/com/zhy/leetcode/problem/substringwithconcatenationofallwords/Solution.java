@@ -29,6 +29,10 @@ class Solution {
             }
         }
         Arrays.sort(words);
+        int wordsHash = 0;
+        for (String word : words) {
+            wordsHash += word.hashCode();
+        }
         for (int i = 0; i < length; i++) {
             Queue<String> queue = new LinkedList<>();
             for (int j = i; j < match.length; j += length) {
@@ -42,6 +46,13 @@ class Solution {
                     queue.remove();
                 }
                 if (queue.size() >= words.length) {
+                    int hash = 0;
+                    for (String s1 : queue) {
+                        hash += s1.hashCode();
+                    }
+                    if (wordsHash != hash) {
+                        continue;
+                    }
                     ArrayList<String> list = new ArrayList<>(queue);
                     list.sort(Comparator.naturalOrder());
                     boolean check = true;
