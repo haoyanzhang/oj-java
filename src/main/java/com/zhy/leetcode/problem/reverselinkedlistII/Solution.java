@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.reverselinkedlistII;
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         m--;

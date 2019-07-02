@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.addtwonumber;
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 public class Solution {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

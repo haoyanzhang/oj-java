@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.reversenodesinkgroup;
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 import java.util.Arrays;
 
 class Solution {

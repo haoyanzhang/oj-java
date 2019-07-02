@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.rotatelist;
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null) {

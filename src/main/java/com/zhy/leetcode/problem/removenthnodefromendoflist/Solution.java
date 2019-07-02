@@ -1,6 +1,8 @@
 package com.zhy.leetcode.problem.removenthnodefromendoflist;
 
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 class Solution {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {

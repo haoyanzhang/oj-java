@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.mergetwosortedlists;
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null || l2 == null) {

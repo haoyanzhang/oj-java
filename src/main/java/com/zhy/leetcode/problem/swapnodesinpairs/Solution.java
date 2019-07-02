@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.swapnodesinpairs;
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 class Solution {
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {
