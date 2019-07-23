@@ -1,4 +1,4 @@
-package com.zhy.leetcode.problem.searchinrotatedsortedarray.findlirstandlastpositionofelementinsortedarray;
+package com.zhy.leetcode.problem.findlirstandlastpositionofelementinsortedarray;
 
 import java.util.Arrays;
 
