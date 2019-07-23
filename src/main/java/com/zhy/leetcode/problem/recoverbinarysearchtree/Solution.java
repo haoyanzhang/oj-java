@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.recoverbinarysearchtree;
 
+import com.zhy.leetcode.problem.node.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
