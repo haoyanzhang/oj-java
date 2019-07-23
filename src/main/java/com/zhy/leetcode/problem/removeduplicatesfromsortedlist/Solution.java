@@ -1,6 +1,8 @@
 package com.zhy.leetcode.problem.removeduplicatesfromsortedlist;
 
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode cur = head;

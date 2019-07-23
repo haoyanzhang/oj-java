@@ -1,5 +1,7 @@
 package com.zhy.leetcode.problem.partitionlist;
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 class Solution {
 
     public ListNode partition(ListNode head, int x) {
