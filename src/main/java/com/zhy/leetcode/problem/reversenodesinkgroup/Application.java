@@ -1,6 +1,8 @@
 package com.zhy.leetcode.problem.reversenodesinkgroup;
 
 
+import com.zhy.leetcode.problem.node.ListNode;
+
 public class Application {
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);

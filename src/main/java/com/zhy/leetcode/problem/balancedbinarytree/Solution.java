@@ -24,7 +24,7 @@ class Solution {
         result.minDepth = (rightDepthInfo.minDepth < leftDepthInfo.minDepth
                 ? rightDepthInfo.minDepth
                 : leftDepthInfo.minDepth) + 1;
-        result.isBalanced = result.maxDepth - result.minDepth <= 1;
+        result.isBalanced = Math.abs(rightDepthInfo.maxDepth - leftDepthInfo.maxDepth) <= 1;
         return result;
     }
 
